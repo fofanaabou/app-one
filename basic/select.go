@@ -25,7 +25,6 @@ func main() {
 			fmt.Println("received:", msg1)
 		case msg2 := <-c2:
 			fmt.Println("received:", msg2)
-
 		}
 	}
 }
